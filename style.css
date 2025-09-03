@@ -8,7 +8,7 @@ body {
 
 /* Centraliza o cartão */
 .card {
-  max-width: 400px;
+  max-width: 600px;
   margin: 50px auto;
   background: white;
   padding: 20px;
@@ -17,10 +17,19 @@ body {
   text-align: center;
 }
 
+.card-curriculo {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* Foto redonda */
 .foto {
     width: 120px;
-  border-radius: 80%;
+  border-radius: 10%;
   margin-bottom: 15px;
 }
 
@@ -55,4 +64,9 @@ input {
   border-radius: 6px;
   font-size: 14px;
   width: 80%;
+}
+
+.area-curriculo {
+    text-align: right;
+    margin-top: 20px;
 }
