@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Minha Primeira Página</title>
-  </head>
-  <body>
-    <h1>Olá, mundo!</h1>
-    <p>Essa é minha primeira página em HTML.</p>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Primeiro Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <img src="./img/steven-seagal-world-nomad-games.jpg" alt="Minha foto" class="foto">
+    
+    <h1 id="nomeTitulo">Olá, eu sou o João!</h1>
+    <p>Estou aprendendo a criar sites com HTML, CSS e JavaScript.</p>
+
+    <!-- Campo para trocar o nome -->
+    <input type="text" id="inputNome" placeholder="Digite seu nome">
+    <button id="btnTrocar">Trocar nome</button>
+
+    <button id="btnMostrar">Mostrar mais</button>
+    <p id="textoExtra" class="escondido">
+      Adoro tecnologia, música e quero aprender muito mais sobre programação!
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
